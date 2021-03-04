@@ -1,0 +1,139 @@
+@media (min-width: 576px) {
+  .typed_wrap {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,100%);
+  }
+}
+
+@media (max-width: 576px) {
+  .typed_wrap {
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    right: 5%;
+    /*padding-top: 50px;*/
+    z-index: 1;
+  }
+}
+
+.typed_wrap h1 {
+}
+
+/* Add custom cursor so it auto inherits font styles */
+
+.typed::after {
+  content: '|';
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+/* Removes cursor that comes with typed.js */
+
+.typed-cursor {
+  opacity: 0;
+  display: none;
+}
+
+/* Custom cursor animation */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.typed {
+  font-family: Jost;
+  font-weight: 500;
+}
+
+@media (min-width: 1100px) {
+  .typed {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) and (min-height: 600) {
+  .typed {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .typed {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .button-hidden-mob {
+    display: none;
+  }
+}
+
+.mob-baner-t2 {
+  font-family: 'Jost';
+  font-weight: bold;
+  padding: 0px 85px;
+}
+
+.find-out-btn {
+  border-radius: 20px;
+  padding: 9px 20px;
+  background-color: #ffa340;
+  font-family: 'Jost';
+  font-weight: bold;
+  border: none;
+}
+
+.find-out-btn:hover {
+  border-radius: 20px;
+  padding: 9px 20px;
+  background-color: #9981f9;
+  border: none;
+}
+
+.mob-logo-banner {
+  width: 300px;
+  transform: translate(0,-10%);
+}
+
+.videos-title {
+  transform: translate(0, 70%);
+}
+
+.nav-btn {
+  border-radius: 20px;
+  background-color: #ffa340;
+  border: none;
+  padding: 8px 15px;
+}
+
+.nav-btn:hover {
+  background-color: #9981f9;
+}
+

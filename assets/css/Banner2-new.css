@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .banner2-text {
+    font-size: 18px;
+  }
+}
+
+.banner2-text {
+  font-family: jost;
+}
+
