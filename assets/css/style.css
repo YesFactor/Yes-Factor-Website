@@ -131,6 +131,9 @@
   background-color: #ffa340;
   border: none;
   padding: 8px 15px;
+  font-family: 'Jost';
+  font-weight: bold;
+  color: black;
 }
 
 .nav-btn:hover {
