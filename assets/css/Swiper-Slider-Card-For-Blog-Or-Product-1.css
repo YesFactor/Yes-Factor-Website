@@ -168,8 +168,10 @@
   }
 }
 
-.blog-slider__content {
-  padding-right: 25px;
+@media (min-width: 992px) {
+  .blog-slider__content {
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -190,7 +192,6 @@
   opacity: 0;
   transform: translateY(25px);
   transition: all .4s;
-  padding-right: 20px;
   text-align: justify;
 }
 
