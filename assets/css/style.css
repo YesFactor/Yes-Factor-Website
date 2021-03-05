@@ -140,3 +140,14 @@
   background-color: #9981f9;
 }
 
+@media (max-width: 450px) {
+  .vision-title {
+    font-family: 'Jost';
+    text-align: center;
+  }
+}
+
+.vision-title {
+  font-family: 'Jost';
+}
+
