@@ -102,3 +102,8 @@
   transition: color .3s;
 }
 
+.testimonial-bg {
+  background-color: rgba(144,165,222,0.15);
+  border-radius: 40px;
+}
+
