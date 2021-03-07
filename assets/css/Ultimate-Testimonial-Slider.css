@@ -107,3 +107,9 @@
   border-radius: 40px;
 }
 
+@media (min-width: 600px) {
+  .fix-testimonials {
+    flex-direction: row-reverse;
+  }
+}
+
